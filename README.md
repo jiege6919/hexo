@@ -6,4 +6,17 @@
    >
    > npm install -g hexo-cli
 -  >
-   > 
+   >  hexo init <folder>
+   >
+   >  cd <folder>
+   >
+   >  npm install
+   >
+### 安装async主题在项目文件夹下
+> npm install --save hexo-theme-async hexo-renderer-less hexo-renderer-ejs
+>
+> 升级 npm install hexo-theme-async@latest
+>
+> 预览 hexo s
+>
+> 生成 hexo g
