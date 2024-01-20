@@ -13,9 +13,9 @@
    >  npm install
    >
 ### 安装 **async** 主题在项目文件夹下
-> npm install --save hexo-theme-async hexo-renderer-less hexo-renderer-ejs
+> 渲染器有没有都执行一下 npm install --save hexo-theme-async hexo-renderer-less hexo-renderer-ejs
 >
-> 升级 npm install hexo-theme-async@latest
+> 安装 & 升级 npm install hexo-theme-async@latest
 >
 > 预览 hexo s
 >
