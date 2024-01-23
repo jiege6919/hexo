@@ -6,9 +6,9 @@
    >
    > - npm install -g hexo-cli
 -  >
-   >  - hexo init <folder>
+   >  - hexo init folder
    >
-   >  - cd <folder>
+   >  - cd folder
    >
    >  - npm install
    >
