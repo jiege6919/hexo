@@ -4,13 +4,13 @@
 
 -  > 全局安装 **hexo**
    >
-   > npm install -g hexo-cli
+   > - npm install -g hexo-cli
 -  >
-   >  hexo init <folder>
+   >  - hexo init <folder>
    >
-   >  cd <folder>
+   >  - cd <folder>
    >
-   >  npm install
+   >  - npm install
    >
 ### 安装 **async** 主题在项目文件夹下
 > 渲染器有没有都执行一下 npm install --save hexo-theme-async hexo-renderer-less hexo-renderer-ejs
