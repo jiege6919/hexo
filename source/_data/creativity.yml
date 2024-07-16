@@ -1,0 +1,65 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: Docker
+      color: "#fff"
+      icon: /img/skill/Docker.svg
+    - name: HTML
+      color: "#fff"
+      icon: /img/skill/HTML.svg
+    - name: Git
+      color: "#fff"
+      icon: /img/skill/Git.svg
+    - name: Github
+      color: "#fff"
+      icon: /img/skill/Github-Dark.svg
+    - name: GitLab
+      color: "#fff"
+      icon: /img/skill/GitLab-Dark.svg
+    - name: Gmail
+      color: "#fff"
+      icon: /img/skill/Gmail-Dark.svg
+    - name: JavaScript
+      color: "#fff"
+      icon: /img/skill/JavaScript.svg
+    - name: JQuery
+      color: "#fff"
+      icon: /img/skill/JQuery.svg
+    - name: Linux
+      color: "#fff"
+      icon: /img/skill/Linux-Dark.svg
+    - name: Markdown
+      color: "#fff"
+      icon: /img/skill/Markdown-Dark.svg
+    - name: Nginx
+      color: "#fff"
+      icon: /img/skill/Nginx.svg
+    - name: NodeJS
+      color: "#fff"
+      icon: /img/skill/NodeJS-Dark.svg
+    - name: Powershell
+      color: "#fff"
+      icon: /img/skill/Powershell-Dark.svg
+    - name: RaspberryPi
+      color: "#fff"
+      icon: /img/skill/RaspberryPi-Dark.svg
+    - name: SVG
+      color: "#fff"
+      icon: /img/skill/SVG-Dark.svg
+    - name: Twitter
+      color: "#fff"
+      icon: /img/skill/Twitter.svg
+    - name: Vite
+      color: "#fff"
+      icon: /img/skill/Vite-Dark.svg
+    - name: VSCode
+      color: "#fff"
+      icon: /img/skill/VSCode-Dark.svg
+    - name: Vue
+      color: "#fff"
+      icon: /img/skill/VueJS-Dark.svg
+    - name: Webpack
+      color: "#fff"
+      icon: /img/skill/Webpack-Dark.svg
+    - name: Wordpress
+      color: "#fff"
+      icon: /img/skill/Wordpress.svg

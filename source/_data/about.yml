@@ -1,0 +1,110 @@
+- class_name: 关于页
+  subtitle: 人生就像一艘小船，内心指引方向⛵
+  avatarImg: /img/avatar.jpg
+  avatarSkills:
+    left:
+      - 🤖️ 数码科技爱好者
+      - 🔍 分享与热心帮助
+      - 🏠 智能家居小能手
+      - 🔨 设计开发一条龙
+    right:
+      - 专修交互与设计 🤝
+      - 脚踏实地行动派 🏃
+      - 团队小组发动机 🧱
+      - 壮汉人狠话不多 💢
+  name: Yang.JIE
+  description: 是一名 前端爱好者、独立开发者、穷逼发烧友
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱 而去 感受
+    word:
+      - 学习
+      - 生活
+      - 体验
+  helloAbout: Hello world
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: 2019 萌发建站兴趣
+        color: "#357ef5"
+      - desc: 2020 开始建站之旅
+        color: "#357ef5"
+      - desc: 2023 学习Vue前端框架
+        color: "#357ef5"
+    img: /img/about/Edu.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: /img/about/tongji.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，泸州市
+    background: /img/map.png
+    backgroundDark: /img/map.png
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2000
+    selfInfoTips2: 不知名高校
+    selfInfoContent2: 小学教育
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 😎
+  personalities:
+    author_name: 主人公
+    personality_type: ENFJ-T
+    personality_type_color: "#33a474"
+    photo_url: /img/about/me.jpg # 本人img
+    personality_img: /img/about/ENFJ-T.svg
+    name_url: https://www.16personalities.com/ch/%E7%BB%93%E6%9E%9C/enfj-t/m/24wb95r5l
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 人生就像一艘小船，
+    maxim_bottom: 内心指引方向 ⛵
+  buff:
+    buff_tips: 特长
+    buff_top: 喜欢玩机，折腾电子设备的 土壳儿
+    buff_bottom: 二次元指数 MAX_PRO_PLUS_TI
+  game:
+    game_tips: 爱好游戏
+    game_title: 原神
+    game_uid: "UID: 517059923"
+    game_bg: /img/about/yuanshen.webp
+  comic:
+    comic_tips: 爱好番剧
+    comic_title: 追番
+    comic_list:
+      - name: 凡人修仙传
+        href: https://www.bilibili.com/bangumi/media/md28223043/
+        cover: /img/about/fr.webp
+      - name: 仙王的日常生活
+        href: https://www.bilibili.com/bangumi/media/md4313802
+        cover: /img/about/xw.webp
+      - name: 灵笼
+        href: https://www.bilibili.com/bangumi/media/md23432
+        cover: /img/about/ll.webp
+      - name: 雾山五行
+        href: https://www.bilibili.com/bangumi/media/md28228714/
+        cover: /img/about/ws.webp
+      - name: 三体
+        href: https://www.bilibili.com/bangumi/media/md4315402/
+        cover: /img/about/st.webp
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: /img/about/shuma.webp
+    like_bottom: 手机、电脑软硬件
+  music:
+    music_tips: 音乐偏好
+    music_title: 毛不易、赵雷
+    music_bg: /img/about/zl.jpg
+    music_link: /essay/
+  reward_list:
+    # - name:
+    #   amount:
+    #   datatime:
+  page:
+    content: 创建这个站的时候，想要就是能够有一个自己能够积累知识、积累兴趣的地方。和他人分享，会让这些成为积累和沉淀。如果能够帮助到更多的人，帮助更多人解决问题，那一定是非常棒的事情。这里大多都是技术向的文章，可能不太会有很多人看，权当是做个自我记录吧。当然，如果某篇文章能够帮助到你，那我也是很开心的。这些就是创造这个小站的本意，也是我分享生活的方式。有幸能和你相遇在这里，相信我们能共同留下一段美好记忆。

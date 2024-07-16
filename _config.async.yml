@@ -1,0 +1,186 @@
+theme:
+  switch: true
+  default: auto
+
+favicon:
+  logo: /img/avatar.jpg
+  icon16: /img/avatar.jpg
+  icon32: /img/avatar.jpg
+  appleTouchIcon: /img/avatar.jpg
+  webmanifest: 
+
+  
+user:
+  name: 小杰自留地
+  first_name: 自留地
+  last_name: 小杰
+  email: ok@yangjie.site
+  domain: box.yangjie.site
+  avatar: /img/avatar.jpg
+  describe: 人生就像一艘小船，内心指引方向
+  ruleText: 一觉游仙好梦，任它竹冷松寒。轩辕事，古今谈，风流河山。沉醉负白首，舒怀成大观。醒，亦在人间；梦，亦在人间。
+  
+sidebar:
+  social: # 社交地址
+    - name: github
+      icon: fab fa-github
+      url: https://github.com/jiege6919
+    - name: telegram
+      icon: fab fa-telegram
+      url: https://t.me/yangjie_yes
+    - name: facebook
+      icon: fab fa-facebook-square
+      url: https://www.facebook.com/profile.php?id=100091831641241&mibextid=ZbWKwL
+    - name: Rss
+      icon: fas fa-rss
+      url: atom.xml
+  info: # 个人信息
+  - key: 地址
+    val: 四川泸州
+  - key: 年龄
+    val: 23
+  - key: 邮箱
+    val: ok@yangjie.site
+  - key: 游戏
+    val: 原神、荒野乱斗、海岛奇兵、2077、生化危机、刺客信条、战地、地平线
+
+
+
+# 横幅 Banner
+banner:
+  use_cover: true
+  default: # 默认
+    type: img
+    bgurl: /img/banner.png
+  index: #首页
+    type: video
+    bgurl: https://cdn.moji.com/websrc/video/autumn20190924.mp4
+    bannerTitle: 树深时见鹿，<br>溪午不闻钟。
+    bannerText: Hi my new friend!
+  archive:
+    bannerTitle: 云间连下榻，<br>天上接行杯。
+    bannerText: The article archive
+  links:
+    bannerTitle: 莫愁前路无知己，<br>天下谁人不识君。
+    bannerText: A link to a friend's website
+  comment:
+    bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+    bannerText: The magic tree hole
+  about:
+    bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+    bannerText: About me
+
+
+
+footer:
+  powered:
+    enable: true
+  beian:
+    enable: true
+    icp: 蜀ICP备2021020461号-2
+  copyrightYear:
+  live_time:
+    enable: true
+    prefix: 
+    start_time: 10/13/2023 17:00:00
+  custom_text: 本站运行于 <a href="https://cloud.tencent.com/" rel="noopener" target="_blank">腾讯云 COS</a>
+
+# 打赏 Reward
+reward:
+  enable: true
+  comment: 我很可爱了，请给我钱
+  methods:
+    - name: 微信
+      path: /img/wxpay.png
+    - name: 支付宝
+      path: /img/Alipay.png
+    - name: QQ
+      path: /img/QQpay.png
+	  
+# 版权信息
+creative_commons:
+  license: by-nc-sa
+  language: deed.zh
+  post: true
+  clipboard: false
+
+# 代码高亮
+highlight:
+  theme: true
+  title: mac
+  copy: true
+  lang: true
+  code_word_wrap: true
+  height_limit: 200 # 超出时，显示折叠按钮
+  
+  
+
+  
+
+# 友情链接
+links:
+  - name: 白云苍狗
+    url: //www.imalun.com/
+    image: //www.imalun.com/images/avatar.jpg
+    desc: 醒，亦在人间；梦，亦在人间
+	
+# 导航栏 TopBars
+top_bars:
+  - title: 首页
+    url: /
+  - title: 归档
+    url: /archives/
+    noswup: true
+  - title: 分类
+    url: /categories/
+    noswup: true
+  # - title: 标签
+  #   url: /tags/
+  #   noswup: true
+  - title: 友链
+    url: /links/
+    noswup: true
+  - title: 关于
+    url: /about/
+    noswup: true
+	
+	
+about:
+	insert: none # 插入规则 before（插入在内容前） | after（插入在内容后） | none（不插入）
+  title: 如果一切都是镜花水月，那就让这万物走向终结。如果一切皆是命中注定，那就让这世界消失殆尽。
+  introduction: 人生就像一艘小船，内心指引方向 # 人生就像一艘小船，内心指引方向
+  blog: 
+    <ul class="trm-list">
+      <li>程序：Hexo </li>
+      <li>主题：Hexo-theme-async </li>
+    </ul>
+  privacy: 本网站不会追踪访客行为，且不要求访客提供任何敏感信息（比如真实姓名、身份证号码、手机号等），因而也不存在任何隐私泄漏问题。访客参与评论，必须遵守法律法规和基本道德规范，文明礼貌。严禁发布任何有关淫秽、反动、暴力、博彩、恐吓、低俗的内容或违法信息，在尊重言论自由的同时请保持和平与理性。请勿对他人采取不友好的评论或其它过激行为。<br><br>本博客采用 <strong><a class="trm-label" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识产权署名-非商业性使用 4.0 国际许可协议</a></strong> 进行许可。<br>转载前请联系作者获得许可，并注明原文链接。如有侵权，请留言告知，我会一周内删除。谢谢！ # 隐私权说明
+  
+
+
+
+rightside:
+  readmode: true
+  aside: true
+  
+
+
+swup: true
+
+
+# 本地搜索
+search:
+  enable: true
+  type: local
+  
+# 自定义封面图
+cover:
+  default: 
+  type: date # 数字日期
+
+
+# 极为重要，将主题必备的js放在本地
+
+assets:
+  internal_provider: local # local | unpkg | jsdelivr
+  third_party_provider: https://npm.elemecdn.com # unpkg | jsdelivr
