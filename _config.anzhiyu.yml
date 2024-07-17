@@ -368,7 +368,7 @@ comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.jie-ipv6.cn:6688/
+  envId: https://twikoo.yangjie.site
   region:
   visitor: false
   option:
