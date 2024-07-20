@@ -5,8 +5,8 @@
   top_link: /album
   top_btn_text: 返回
   top_background: 
-  cover: https://box-yangjie.yangjie.site/album/img_cover.jpg
-  url: https://box-yangjie.yangjie.site/album/luzhou_footprint/luzhou_footprint.json
+  cover: /box-yangjie/album/img_cover.jpg
+  url: /box-yangjie/luzhou_footprint/luzhou_footprint.json
   # album_list:
   #   - date: 2024-02-18
   #     content: 泸州足迹
