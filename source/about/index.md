@@ -22,19 +22,19 @@ type: "about"
 
 几句话说不清楚，网站太多，越来越复杂。总体只有两个顶级域名 **yangjie.site** & **jie-ipv6.cn**
 
-当键入 **yangjie.site**，将发生：yangjie.site(http) => 腾讯DNS => 西部数码IDC => 重定向 => www.yangjie.site(https) => (主页)
+当键入 **yangjie.site**，将发生：yangjie.site(http) => 腾讯DNS => 腾讯云轻量服务器 => lucky 反代服务器 => 两次重定向 => www.yangjie.site(https) => (主页)
 
 当键入 **jie-ipv6.cn**，什么都不会发生，该域名仅用于 Nas 对外服务，例如 DDNS、Alist、Lucky、Qb。域名通过反代服务器对外开放，泛解析，如 https://alist.jie-ipv6.cn:6688
 
 
 ### 网站服务器分布
 
- -    "家庭宽带（Nas）" : 33%
- -    "西部数码" : 33%
- -    "腾讯云 COS" : 20%
- -    "GitHub" :  14%
+ -    "家庭宽带（Nas）" : 10%
+ -    ~~"西部数码" : 33%~~
+ -    "腾讯云 轻量服务器 & CDN" : 80%
+ -    "GitHub" :  10%
 
 ### Ipv6 支持程度
 
-{% checkbox yangjie.site %}
-{% checkbox checked, jie-ipv6.cn %}
+{% checkbox yangjie.site (~~ipv6~~) %}
+{% checkbox checked, jie-ipv6.cn (~~ipv4~~) %}

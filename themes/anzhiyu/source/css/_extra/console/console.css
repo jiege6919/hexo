@@ -701,21 +701,20 @@ body:has(#console.show) #nav-music .aplayer .aplayer-lrc .aplayer-lrc-contents {
   body:has(#console.show) #nav-music .aplayer .aplayer-body {
     justify-content: space-between;
   }
-  body:has(#console.show) #nav-music .aplayer.aplayer-withlrc .aplayer-info::after {
+  /* body:has(#console.show) #nav-music .aplayer.aplayer-withlrc .aplayer-info::after {
     position: absolute;
-    content: "iPhone";
+    content: "平板宽度控制台显示音乐界面 😊";
     top: -20px;
     left: 0;
     color: #b5b8bc;
-  }
+  } */
   body:has(#console.show) #nav-music .aplayer .aplayer-info .aplayer-music {
     padding: 25px 0 0;
     position: absolute;
     left: 0;
   }
   body:has(#console.show) #nav-music .aplayer.aplayer-withlrc .aplayer-lrc {
-    height: 25px;
-    text-align: left;
+    display: none;
   }
 
   body:has(#console.show) #nav-music .aplayer .aplayer-lrc p.aplayer-lrc-current {

@@ -180,7 +180,7 @@ rm.downloadimging = false;
 rm.writeClipImg = function (imgsrc) {
   console.log("按下复制");
   rm.hideRightMenu();
-  anzhiyu.snackbarShow("正在下载中，请稍后", false, 10000);
+  anzhiyu.snackbarShow("正在复制中，请稍后", false, 10000);
   if (rm.downloadimging == false) {
     rm.downloadimging = true;
     setTimeout(function () {

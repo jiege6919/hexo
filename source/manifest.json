@@ -2,7 +2,7 @@
     "name": "小杰杂记",
     "short_name": "江阳独钓",
     "theme_color": "#1296db",
-    "background_color": "#ffffff",
+    "background_color": "#fff",
     "display": "minimal-ui",
     "scope": "/",
     "start_url": "/",
@@ -25,12 +25,6 @@
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any"
-        },
-        {
-            "src": "img/pwa/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable"
         }
     ],
     "splash_pages": null

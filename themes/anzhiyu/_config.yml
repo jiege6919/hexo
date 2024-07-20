@@ -584,12 +584,8 @@ google_adsense:
 # --------------------------------------
 
 site_verification:
-  - name: google-site-verification
-    content: xxx
-  - name: baidu-site-verification
-    content: code-xxx
-  - name: msvalidate.01
-    content: xxx
+  - name: 
+    content: 
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -729,14 +725,14 @@ beautify:
 font:
   global-font-size: 16px
   code-font-size: 
-  font-family: 霞鹜文楷, 得意黑, KaiTi
+  font-family: 霞鹜文楷, KaiTi
   code-font-family: 霞鹜文楷, "Microsoft JhengHei", "Microsoft YaHei"
 
 # Font settings for the site title and site subtitle
 # 左上角网站名字 主页居中网站名字
 blog_title_font:
   font_link:
-  font-family: 得意黑, "Microsoft JhengHei", "Microsoft YaHei"
+  font-family: 霞鹜文楷, "Microsoft JhengHei", "Microsoft YaHei"
 
 # The setting of divider icon (水平分隔线图标设置)
 hr_icon:

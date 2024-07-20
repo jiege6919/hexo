@@ -207,7 +207,7 @@ aside:
     tag: false # 标签
   card_author:
     enable: true
-    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">一个<b style="color:#fff">闲得蛋疼的、爱好前端的、折腾不止的</b>业余开发者。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">人生就像一艘小船，内心指引方向。</div>
+    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">一个<b style="color:#fff">闲得蛋疼的、爱好前端的、折腾不止的</b>业余开发者。</div>
     name_link: /about
   card_announcement:
     enable: false
@@ -347,11 +347,6 @@ pwa:
   startup_image_enable: true
   manifest: /manifest.json
   theme_color: var(--anzhiyu-main)
-  mask_icon: /img/siteicon/apple-icon-180.png
-  apple_touch_icon: /img/siteicon/apple-icon-180.png
-  bookmark_icon: /img/siteicon/apple-icon-180.png
-  favicon_32_32: /img/siteicon/32.png
-  favicon_16_16: /img/siteicon/16.png
 
 # 评论
 comments:
