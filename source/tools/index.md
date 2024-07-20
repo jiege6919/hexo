@@ -2,6 +2,7 @@
 title: tools
 date: 2024-06-21 09:15:27
 aside: false
+comments: false # 不显示评论
 ---
 
 {% flink %}
