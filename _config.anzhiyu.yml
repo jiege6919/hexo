@@ -344,9 +344,16 @@ local_search:
 # ---------------
 pwa:
   enable: true
-  startup_image_enable: true
   manifest: /manifest.json
-  theme_color: var(--anzhiyu-main)
+
+# swpp:
+#   # 是否启用插件
+#   enable: true
+#   # 是否在发布前自动执行脚本
+#   # auto_exec: true
+#   # 手动执行 hexo swpp
+#   warn_level: 2
+
 
 # 评论
 comments:

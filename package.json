@@ -27,9 +27,11 @@
     "hexo-renderer-marked": "^6.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
+    "hexo-swpp": "^3.3.7",
     "hexo-theme-anzhiyu": "^1.6.10",
     "hexo-theme-async": "^2.1.10",
     "hexo-theme-landscape": "^1.0.0",
-    "pwa-asset-generator": "^6.3.1"
+    "pwa-asset-generator": "^6.3.1",
+    "swpp-backends": "^2.3.12"
   }
 }

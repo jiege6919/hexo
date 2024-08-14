@@ -10,7 +10,7 @@ module.exports.config = {
    */
   serviceWorker: {
     escape: 0,
-    cacheName: "AnZhiYuThemeCache",
+    cacheName: "xiaojie_record_Cache",
     debug: false,
   },
   register: {
@@ -91,23 +91,23 @@ module.exports.cacheRules = {
     search: false,
     match: (url, $eject) => {
       const allowedHost = $eject.domain;
-      const allowedPaths = ["/404.html", "/css/index.css"];
+      const allowedPaths = ["**/*.{jpg,jpeg,png,webp,mp3,woff2,xml,json,ico,svg,gif,css,js,html}"];
       return url.host === allowedHost && allowedPaths.includes(url.pathname);
     },
   },
-  cdn: {
-    clean: true,
-    match: url =>
-      [
-        "cdn.cbd.int",
-        "lf26-cdn-tos.bytecdntp.com",
-        "lf6-cdn-tos.bytecdntp.com",
-        "lf3-cdn-tos.bytecdntp.com",
-        "lf9-cdn-tos.bytecdntp.com",
-        "cdn.staticfile.org",
-        "npm.elemecdn.com",
-      ].includes(url.host) && url.pathname.match(/\.(js|css|woff2|woff|ttf|cur)$/),
-  },
+  // cdn: {
+  //   clean: true,
+  //   match: url =>
+  //     [
+  //       "cdn.cbd.int",
+  //       "lf26-cdn-tos.bytecdntp.com",
+  //       "lf6-cdn-tos.bytecdntp.com",
+  //       "lf3-cdn-tos.bytecdntp.com",
+  //       "lf9-cdn-tos.bytecdntp.com",
+  //       "cdn.staticfile.org",
+  //       "npm.elemecdn.com",
+  //     ].includes(url.host) && url.pathname.match(/\.(js|css|woff2|woff|ttf|cur)$/),
+  // },
 };
 
 /**
