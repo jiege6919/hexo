@@ -1,6 +1,6 @@
 ---
 title: 关于
-date: 
+date:
 aside: false
 top_img: false
 background: "#f8f9fe"
@@ -20,21 +20,26 @@ type: "about"
 
 ### 网站建构
 
-几句话说不清楚，网站太多，越来越复杂。总体只有两个顶级域名 **yangjie.site** & **jie-ipv6.cn**
+~~几句话说不清楚，网站太多，越来越复杂。总体只有两个顶级域名 **yangjie.site** & **jie-ipv6.cn**~~
 
-当键入 **yangjie.site**，将发生：yangjie.site:80 => 腾讯DNS => 腾讯云轻量服务器 => lucky 反代服务器 => 两次重定向 => www.yangjie.site:443 => (主页)
+只维护 yangjie.site 了，回顾我的域名之旅，最开始的 jiege.xyz => yangjay.cn => yangjie.site
 
-当键入 **jie-ipv6.cn**，什么都不会发生，该域名仅用于 Nas 对外服务，例如 DDNS、Alist、Lucky、Qb。域名通过反代服务器对外开放，泛解析，如 https://alist.jie-ipv6.cn:6688
+折腾太久了，有些累了，没精力，没动力去玩了
 
+当键入 **yangjie.site**，将发生：yangjie.site:80 => 腾讯云 DNS => 腾讯云轻量服务器 => lucky 反代服务器 => 两次重定向 => www.yangjie.site:443 => (主页)
+
+其中 ipv6 网站，alist | lucky-nas | nas | yangjie.site 在 DNS 解析时 AAAA 自定义主机名优先级大于泛解析，由此实现了 ipv4/ipv6 的分流管理。之前的 ~~jie-ipv6.cn~~ 不该买的
+
+~~当键入 **jie-ipv6.cn** 什么都不会发生，该域名仅用于 Nas 对外服务，例如 DDNS、Alist、Lucky、Qb。域名通过反代服务器对外开放，泛解析~~
 
 ### 网站服务器分布
 
- -    "家庭宽带（Nas）" : 10%
- -    ~~"西部数码" : 33%~~
- -    "腾讯云 轻量服务器 & CDN" : 80%
- -    "GitHub" :  10%
+- "家庭宽带（Nas）" : 30%
+- ~~"西部数码" : 33%~~
+- "腾讯云 轻量服务器" : 70%
+- ~~"GitHub" : 10%~~
 
-### Ipv6 支持程度
+### ipv6 支持程度
 
-{% checkbox yangjie.site (~~ipv6~~) %}
-{% checkbox checked, jie-ipv6.cn (~~ipv4~~) %}
+{% checkbox *.yangjie.site (~~ipv6~~) %}
+{% checkbox checked, alist | lucky-nas | nas | yangjie.site (~~ipv4~~) %}
