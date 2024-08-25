@@ -30,7 +30,7 @@ comments: false # 不显示评论
   flink_style: anzhiyu
   link_list:
     - name: 图片处理
-      link: https://www.iloveimg.com/
+      link: https://www.iloveimg.com/zh-cn
       avatar: 
       descr: 诸多功能
     - name: 图片压缩
@@ -68,4 +68,36 @@ comments: false # 不显示评论
       link: https://hot.imsyy.top/
       avatar: 
       descr: 掌握天下大事
+    - name: V2EX
+      link: https://v2ex.com/
+      avatar: 
+      descr: 里面的人个个是人才，说话超好听，我超喜欢里面
+    - name: ROG 
+      link: https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-b760-g-gaming-wifi/helpdesk_bios/
+      avatar: 
+      descr: 小吹雪 BIOS
+    - name: 阿里巴巴图标库
+      link: https://www.iconfont.cn/collections/detail?cid=44481
+      avatar: 
+      descr: 阿里良心
+    - name: 爆破微软商店
+      link: https://store.rg-adguard.net/
+      avatar: 
+      descr: 顾名思义，爆破微软商店
+    - name: edge 浏览器设置
+      link: edge://flags/#force-color-profile
+      avatar: 
+      descr: edge 浏览器的隐藏功能
+    - name: IPTV
+      link: https://github.com/HerbertHe/iptv-sources
+      avatar: 
+      descr: 开源的 IPTV 项目，虽然比不过运营商的吧，但应急是没问题滴
+    - name: 租号平台
+      link: https://www.xunniaoji.com/
+      avatar: 
+      descr: 我看到的最良心的网站了，共享万岁
+    - name: namebeta
+      link: https://namebeta.com/
+      avatar: 
+      descr: 最好的域名比价、挑选平台，简洁又明了
 {% endflink %}
