@@ -101,3 +101,40 @@ comments: false # 不显示评论
       avatar: 
       descr: 最好的域名比价、挑选平台，简洁又明了
 {% endflink %}
+{% flink %}
+- class_name: 新鲜世界
+  class_desc: 互联网如此精彩，超链接将彼此连接，多去看看，总是好的
+  flink_style: anzhiyu
+  link_list:
+    - name: viper3
+      link: https://viper3.top/
+      avatar: 
+      descr: 备忘
+    - name: Blogs·CN
+      link: https://blogscn.fun/
+      avatar: 
+      descr: 致敬还在写博客的我们！
+    - name: 鸡娃客
+      link: https://www.jiwake.com/
+      avatar: 
+      descr: 各种教育资源
+    - name: 十年之约
+      link: https://www.foreverblog.cn/
+      avatar: 
+      descr: 一个人的寂寞，一群人的狂欢
+    - name: 若志
+      link: https://www.rz.sb/
+      avatar: 
+      descr: 超有意思的博主
+{% endflink %}
+
+{% flink %}
+- class_name: 站长其余站点
+  class_desc: 个人自用
+  flink_style: anzhiyu
+  link_list:
+    - name: 站点监控
+      link: https://jk.yangjie.site
+      avatar: 
+      descr: 监控网站状态，及时反馈
+{% endflink %}

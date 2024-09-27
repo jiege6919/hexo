@@ -20,8 +20,8 @@ module.exports = {
       options: {
         cacheName: "@jie_img-cache",
         expiration: {
-          maxEntries: 50, // 可以根据需要调整
-          maxAgeSeconds: 30 * 24 * 60 * 60, // 缓存 30 天
+          maxEntries: 500, // 可以根据需要调整
+          maxAgeSeconds: 300 * 24 * 60 * 60, // 缓存 300 天
         },
       },
     },
@@ -45,7 +45,7 @@ module.exports = {
         cacheName: "@jie_static-cache",
         expiration: {
           maxEntries: 10,
-          maxAgeSeconds: 30 * 24 * 60 * 60, // 缓存 30 天
+          maxAgeSeconds: 300 * 24 * 60 * 60, // 缓存 300 天
         },
       },
     },

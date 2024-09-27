@@ -26,9 +26,9 @@ type: "about"
 
 折腾太久了，有些累了，没精力，没动力去玩了
 
-当键入 **yangjie.site**，将发生：yangjie.site:80 => 腾讯云 DNS => 腾讯云轻量服务器 => lucky 反代服务器 => 两次重定向 => www.yangjie.site:443 => (主页)
+当键入 **yangjie.site**，将发生：yangjie.site:80 => 腾讯云 DNS => 腾讯云轻量服务器 => openresty 反代 => 两次重定向 => www.yangjie.site:443 => (主页)
 
-其中 ipv6 网站，alist | lucky-nas | nas | yangjie.site 在 DNS 解析时 AAAA 自定义主机名优先级大于泛解析，由此实现了 ipv4/ipv6 的分流管理。之前的 ~~jie-ipv6.cn~~ 不该买的
+其中 ipv6 网站，alist | lucky | op | yangjie.site 在 DNS 解析时 AAAA 自定义主机名优先级大于泛解析，由此实现了 ipv4/ipv6 的分流管理。之前的 ~~jie-ipv6.cn~~ 不该买的
 
 ~~当键入 **jie-ipv6.cn** 什么都不会发生，该域名仅用于 Nas 对外服务，例如 DDNS、Alist、Lucky、Qb。域名通过反代服务器对外开放，泛解析~~
 
@@ -42,4 +42,4 @@ type: "about"
 ### ipv6 支持程度
 
 {% checkbox *.yangjie.site (~~ipv6~~) %}
-{% checkbox checked, alist | lucky-nas | nas | yangjie.site (~~ipv4~~) %}
+{% checkbox checked, alist | lucky | op | yangjie.site (~~ipv4~~) %}
