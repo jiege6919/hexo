@@ -1,5 +1,5 @@
 ---
-title: tools
+title: 工具
 date: 2024-06-21 09:15:27
 aside: false
 comments: false # 不显示评论
@@ -100,6 +100,10 @@ comments: false # 不显示评论
       link: https://namebeta.com/
       avatar: 
       descr: 最好的域名比价、挑选平台，简洁又明了
+    - name: Office Tool Plus
+      link: https://otp.landian.vip/zh-cn/
+      avatar: 
+      descr: Office Yes！
 {% endflink %}
 {% flink %}
 - class_name: 新鲜世界

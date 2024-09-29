@@ -1,19 +1,28 @@
 - class_name: 泸州足迹
-  path_name: /luzhou_footprint
-  type: 2
+  path_name: /album/luzhou_footprint
+  type: 1
   description: 去不了远方，就在附近走走吧
   top_link: /album
   top_btn_text: 返回
   top_background: 
-  cover: /box-yangjie/album/img_cover.jpg
-  url: /box-yangjie/luzhou_footprint/luzhou_footprint.json
-  # album_list:
-  #   - date: 2024-02-18
-  #     content: 泸州足迹
-  #     image: https://box-yangjie.yangjie.site/album/luzhou_footprint/luzhou_footprint.json
-  #   - date: 2024-02-18
-  #     content: 泸州足迹
-  #     image: https://box-yangjie.yangjie.site/album/luzhou_footprint/luzhou_footprint.json
-  #   - date: 2024-02-18
-  #     content: 泸州足迹
-  #     image: https://box-yangjie.yangjie.site/album/luzhou_footprint/luzhou_footprint.json
+  cover: https://static.yangjie.site/box/album/img_cover.jpg
+  album_list:
+    - date: 2023/10/26 01:00:00
+      content: 测试
+      address: 中国
+      from: 
+      image:
+        - https://static.yangjie.site/box/album/luzhou_footprint/0.jpg
+    - date: 2023-10-25
+      content: 测试
+      address: 中国
+      from: 
+      image:
+        - https://static.yangjie.site/box/album/luzhou_footprint/1.jpg
+        - https://static.yangjie.site/box/album/luzhou_footprint/21.jpg
+    - date: 2023/10/26 01:00:00
+      content: 测试
+      address: 中国
+      from: 
+      image:
+        - https://static.yangjie.site/box/album/luzhou_footprint/68.jpg
